@@ -32,8 +32,8 @@ export default function Home() {
             <MarqueeTech />
           </div>
 
-          <div className="px-4 py-3 bg-[#525252]/10 flex space-x-3 items-center min-w-fit rounded-[10px] max-xl:hidden">
-            <Image src='/icons/clock.svg' alt='Clock' width={86} height={86} />
+          <div className="px-4 py-3 bg-[#525252]/10 flex space-x-5 items-center min-w-fit rounded-[10px] max-xl:hidden">
+            <Image src='/icons/trophy.svg' alt='Trophy' width={86} height={86} />
 
             <div>
               <h1 className="text-white text-[24px] font-semibold"><Link href="https://www.freecodecamp.org/certification/Sm1rkyea/responsive-web-design" target="_blank" className="transition-colors duration-200 hover:text-lblue-300">1+ certifikátů</Link></h1>
