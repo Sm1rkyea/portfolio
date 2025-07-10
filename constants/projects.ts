@@ -5,7 +5,7 @@ export const projectList = [
         img: "/images/justdrven.png",
         project: 'JustDrven',
         label: 'Osobní portfolio',
-        description: 'JustDrven je portfolio které bylo vytvořeno zcela zdarma pro jednoho z Developerů z Survival-Game.cz. Pracoval jsem na něm celkem 1 den v Figma, Next.js, TailwindCSS a ShadCN.',
+        description: 'JustDrven je portfolio které bylo vytvořeno zcela zdarma pro jednoho z Developerů na Survival-Games.cz. Pracoval jsem na něm celkem 1 den v Figma, Next.js, TailwindCSS a ShadCN.',
         link: 'https://drven.vercel.app',
     },
 ]
