@@ -18,7 +18,7 @@ export const influenceList = [
         project: 'Survival-Games.cz',
         role: 'Website Developer',
         label: 'Největší CZ/SK Minecraft projekt',
-        description: 'Survival-Games.cz je jeden z největších Minecraftových projektů. Pracuji na něm primárně jako Website Developer s technologiemi jako PHP, Next.js, TailwindCSS, ShadCN apod.',
+        description: 'Survival-Games.cz je jeden z největších Minecraftových projektů. Pracuji na něm primárně jako Website Developer s technologiemi jako PHP, Twig, Next.js, TailwindCSS, ShadCN apod.',
         link: 'https://survival-games.cz',
     },
 ]

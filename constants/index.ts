@@ -1,15 +1,15 @@
 export const navbarLinks = [
     {
-        label: "O mně",
-        href: "#",
+        label: 'Domů',
+        href: '/',
     },
     {
-        label: "Projekty",
-        href: "#projects",
+        label: "Instagram",
+        href: "https://www.instagram.com/sm1rkyea/",
     },
     {
-        label: "Působení",
-        href: "#experience",
+        label: "GitHub",
+        href: "https://github.com/Sm1rkyea",
     },
     {
         label: "Kontakt",

@@ -13,7 +13,9 @@ export default function Home() {
           <h1 className="text-[3.5rem] font-semibold sm:text-[5rem] lg:text-[4.5rem]">Zdravím, jsem <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#8CCBFF] to-[#ABD9FF]">Smirkyea</span></h1>
           
           <p className="text-[18px] lg:-mt-2 lg:max-w-[70vw]">
-            I’m a young and passionate programmer from the Czech Republic, perhaps like many others, who has already had the opportunity to be part of something significant — contributing to the development of two of the largest Minecraft servers on the Czech and Slovak scene: QPlay.cz and Survival-Games.cz. These experiences taught me not only about programming, but also about teamwork, infrastructure, and building something that thousands of players enjoy every day. My biggest ambition for the future is to become a professional Software Developer at JetBrains.
+            Jsem mladý Webový Developer který se specializuje především na Frontend Development. Aktivně se věnuji technologiím jako je React, Next.js, TailwindCSS,
+            ShadCN UI, s pomocí kterých jsem schopen lehce vytvářet moderní a responsivní Webové aplikace. Již jsem také měl možnost působit na jednom z nějvětších Minecraftových projektů
+            v České republice, kde se podílím na vývoji Webových aplikací - Survival-Games.cz.
           </p>
         </div>
 

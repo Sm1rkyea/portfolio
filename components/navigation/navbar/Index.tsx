@@ -34,7 +34,7 @@ const Index = () => {
 					return (
 						<React.Fragment key={link.label}>
 							<li className="text-[19px] text-white transition-colors duration-200 hover:text-lblue-300">
-								<Link href={link.href}>{link.label}</Link>
+								<Link href={link.href} target={link.href === '/' ? '_self' : '_blank'}>{link.label}</Link>
 							</li>
 
 							{index + 1 === halfway && (
