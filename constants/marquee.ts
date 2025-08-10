@@ -43,6 +43,10 @@ export const marqueeOneItems = [
       img: '/icons/mongodb.svg',
       label: 'MongoDB',
     },
+    {
+      img: '/icons/electron.svg',
+      label: 'Electron',
+    },
 ]
 
 export const marqueeTwoItems = [
