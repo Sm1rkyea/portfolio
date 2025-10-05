@@ -31,7 +31,7 @@ export const projectList = [
 export const influenceList = [
     {
         id: 1,
-        date: '11.07.2025 - Present',
+        date: '11.07 - 04.10.2025',
         img: "/images/sg.png",
         project: 'Survival-Games.cz',
         role: 'Website Developer',
