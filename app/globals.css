@@ -16,11 +16,12 @@
 }
 
 @keyframes marquee-vertical {
-  0% {
-    transform: translateY(0%);
+  0% { 
+    transform: translateY(-50%);
   }
-  100% {
-    transform: translateY(-35%);
+
+  100% { 
+    transform: translateY(0);
   }
 }
 
@@ -31,6 +32,7 @@
 .animate-marquee-vertical-slow {
   animation: marquee-vertical 30s linear infinite;
 }
+
 
 @keyframes bounce-down {
   0% {

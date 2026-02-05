@@ -6,14 +6,14 @@ const Marquee = () => {
   const loopTools = [...ToolsMarqueeList, ...ToolsMarqueeList]
 
   return (
-    <div className="max-h-[36vh] w-full rounded-2xl flex items-center gap-5 overflow-hidden">
-      <div className="overflow-hidden relative h-full">
+    <div className="max-h-[36vh] w-full rounded-2xl flex gap-5 overflow-hidden">
+      <div className="overflow-hidden relative h-full w-[22vh]">
         <ul className="flex flex-col gap-4 animate-marquee-vertical">
           {loopTechnologies.map((item, idx) => {
             const Icon = item.icon
-
+            
             return (
-              <li key={idx} className="h-16 w-[22vh] px-10 flex items-center gap-3 bg-neutral-200/60 dark:bg-neutral-900/50 rounded-full shrink-0 transition-colors delay-100 duration-300">
+              <li key={idx} className="h-16 flex items-center gap-3 bg-neutral-200/60 dark:bg-neutral-900/50 rounded-full shrink-0 px-10">
                 <Icon />
                 <p>{item.label}</p>
               </li>
@@ -22,13 +22,13 @@ const Marquee = () => {
         </ul>
       </div>
 
-      <div className="overflow-hidden relative h-full">
+      <div className="overflow-hidden relative h-full w-[22vh]">
         <ul className="flex flex-col gap-4 animate-marquee-vertical-slow">
           {loopTools.map((item, idx) => {
             const Icon = item.icon
 
             return (
-              <li key={idx} className="h-16 w-[22vh] px-10 flex items-center gap-3 bg-neutral-200/60 dark:bg-neutral-900/50 rounded-full shrink-0 transition-colors delay-150 duration-300">
+              <li key={idx} className="h-16 flex items-center gap-3 bg-neutral-200/60 dark:bg-neutral-900/50 rounded-full shrink-0 px-10">
                 <Icon />
                 <p>{item.label}</p>
               </li>
