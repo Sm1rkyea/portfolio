@@ -8,7 +8,7 @@ const Marquee = () => {
   return (
     <div className="max-h-[36vh] w-full rounded-2xl flex items-center gap-5 overflow-hidden">
       <div className="overflow-hidden relative h-full">
-        <ul className="flex flex-col gap-4 animate-marquee-vertical h-max">
+        <ul className="flex flex-col gap-4 animate-marquee-vertical">
           {loopTechnologies.map((item, idx) => {
             const Icon = item.icon
 
@@ -23,7 +23,7 @@ const Marquee = () => {
       </div>
 
       <div className="overflow-hidden relative h-full">
-        <ul className="flex flex-col gap-4 animate-marquee-vertical-slow h-max">
+        <ul className="flex flex-col gap-4 animate-marquee-vertical-slow">
           {loopTools.map((item, idx) => {
             const Icon = item.icon
 
