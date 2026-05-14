@@ -2,7 +2,7 @@ export const experienceProjectsList = [
     {
         role: "Website Developer",
         title: "Survival-Games.cz",
-        description: "Working on and developing websites using modern technologies as a Website Developer for the largest Czech Minecraft server.",
+        description: "Worked on and developed websites using modern technologies as a Website Developer for the largest Czech Minecraft server at the time.",
         fromYear: 2025,
         toYear: 2025,
         impacts: [
