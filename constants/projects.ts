@@ -5,7 +5,7 @@ export const projectsList = [
     description:
       "A website created for a Minecraft project Mineplex Remastered, highly inspired by the original Mineplex network. I made the visual style, website and recreated the original experience but in slightly better way.",
     date: "17.04.2026",
-    tags: ["Next.js", "TailwindCSS", "UI/UX", "ShadCN UI", "Axios"],
+    tags: ["Next.js", "TailwindCSS", "UI/UX", "ShadCN UI"],
     links: {
       github: "https://github.com/JustDrven/mineplex-web",
       site: null,
